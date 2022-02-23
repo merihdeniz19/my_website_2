@@ -211,6 +211,11 @@ body {
     color: #000;
     background-color: #fff;
 }
+
+.container > .row  {
+	text-align: center;
+  }
+
 button, input, select, textarea {
     font-family: inherit;
     font-size: inherit;
