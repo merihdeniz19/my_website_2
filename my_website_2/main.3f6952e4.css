@@ -3663,6 +3663,7 @@ textarea {
     position: relative;
     width: 80%;
     margin: -10em auto 20px;
+	/* vertical-align: middle; */
 }
 @media (max-width:992px) {
     .card-container {
