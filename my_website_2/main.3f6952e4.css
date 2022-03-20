@@ -3519,7 +3519,7 @@ body.minimal {
 }
 .white-text-container h1, .white-text-container h2, .white-text-container h3, .white-text-container h4, .white-text-container h5, .white-text-container p {
     text-shadow: 0 1px 3px #000;
-    color: #fff;
+    color: black;
 }
 .white-text-container a {
     color: #fff;
