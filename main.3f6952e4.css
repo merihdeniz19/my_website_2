@@ -170,6 +170,9 @@ img, tr {
 img {
     max-width: 100%!important;
 }
+video {
+    max-width: 100%!important;
+}
 h2, h3, p {
     orphans: 3;
     widows: 3;
@@ -237,6 +240,9 @@ figure {
     margin: 0;
 }
 img {
+    vertical-align: middle;
+}
+video {
     vertical-align: middle;
 }
 .img-responsive {
@@ -3217,7 +3223,7 @@ button.close {
     border: 1px solid #fff;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: transparent;
 }
 .carousel-indicators .active {
@@ -3542,7 +3548,7 @@ body.minimal {
     min-height: 84vh;
 }
 @media (max-width:768px) {
-    .section-container: first-of-type {
+    .section-container:first-of-type {
     padding-top: 30px;
 }
 }.background-image-container {
@@ -3615,7 +3621,7 @@ p {
     padding: 0 30px;
 }
 }@media (max-width:992px) {
-    .h2: after, .h2:before, h2:after, h2:before {
+    .h2:after, .h2:before, h2:after, h2:before {
     display: none;
 }
 }.h1, .h2, .h3, h1, h2, h3 {
